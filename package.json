@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-restfull-seed",
+  "version": "0.0.1",
+  "description": "一个基于Node.js的RESTful后端项目模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashmaparraylist/nodejs-restfull-seed.git"
+  },
+  "keywords": [
+    "node.js",
+    "RESTful",
+    "express.js"
+  ],
+  "author": "Sebastian Qu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashmaparraylist/nodejs-restfull-seed/issues"
+  },
+  "homepage": "https://github.com/hashmaparraylist/nodejs-restfull-seed#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
