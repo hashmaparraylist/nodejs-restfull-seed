@@ -4,7 +4,7 @@
   "description": "一个基于Node.js的RESTful后端项目模板",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js; exit 0"
+    "lint": "esw -w *.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
-    "eslint": "^2.7.0"
+    "eslint": "^2.7.0",
+    "eslint-watch": "^2.1.10"
   },
   "config": {
     "commitizen": {
