@@ -31,9 +31,9 @@ const prodEnv = {
 };
 
 if (process.env.NODE_ENV === 'producation') {
-    config = Object.assign(config , prodEnv);
+    config = Object.assign(config, prodEnv);
 } else {
-    config = Object.assign(config , devEnv);
+    config = Object.assign(config, devEnv);
 }
 
 module.exports = config;
