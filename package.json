@@ -4,7 +4,7 @@
   "description": "一个基于Node.js的RESTful后端项目模板",
   "main": "index.js",
   "scripts": {
-    "lint": "esw -w *.js lib/**"
+    "lint": "esw -w *.js lib/** -c .eslintrc"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/hashmaparraylist/nodejs-restfull-seed#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mongoose": "^4.4.12"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",

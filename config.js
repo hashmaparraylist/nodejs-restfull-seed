@@ -1,5 +1,5 @@
 // all environment config
-var config = {
+let config = {
     server: {
         serviceRoot: 'api',
         port: 30001
@@ -11,9 +11,10 @@ const devEnv = {
     database : {
         url: 'localhost',
         port: 27017,
-        usr: 'test',
+        user: 'test',
         passwd: 'test@1123',
-        schema: 'test'
+        schema: 'test',
+        poolSize: 10
     }
 };
 
@@ -22,9 +23,10 @@ const prodEnv = {
     database : {
         url: '192.168.11.23',
         port: 27017,
-        usr: 'test',
+        user: 'test',
         passwd: 'test@1123',
-        schema: 'test'
+        schema: 'test',
+        poolSize: 10
     }
 };
 

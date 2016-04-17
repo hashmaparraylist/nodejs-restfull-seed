@@ -7,7 +7,7 @@
     "ecmaFeatures": {
         "modules": false
     },
-    "rule": {
+    "rules": {
         "no-var": "warn"
     }
 }
